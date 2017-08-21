@@ -15,5 +15,3 @@ listener = MyListener()
 browser = ServiceBrowser(zeroconf, "_zapp._tcp.local.", listener)
 sleep(5.0)
 zeroconf.close()
-# End
-# DEV
